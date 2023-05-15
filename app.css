@@ -140,7 +140,7 @@ label {
     margin: 20px;
     border-radius: 20px;
     margin-right: 60px;
-    margin-left: 0px;
+    margin-left: 60px;
 }
 
 
@@ -252,6 +252,10 @@ label {
     .second-section {
         flex-direction: column;
     }
+
+    #info {
+        text-align: center;
+    }
 }
 
 
@@ -355,13 +359,13 @@ label {
     }
 
     .second-section {
-        min-width: 200px;
+        min-width: 375px;
         align-self: center;
     }
 
     .second-section img {
         height: 250px;
-        width: 250px;
+        width: 300px;
         margin-left: 50px;
     }
 
@@ -443,7 +447,9 @@ label {
 
     .second-section {
         margin-top: 500px;
+        font-size: 0.8em;
     }
+
 }
 
 
